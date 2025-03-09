@@ -8,8 +8,8 @@ class TelegramAuth:
     def __init__(self):
         # API ключи встроены напрямую в код
         # Замените эти значения на свои реальные ключи
-        self.api_id = "12345678"  # Введите сюда ваш API ID от Telegram
-        self.api_hash = "abcdef0123456789abcdef0123456789"  # Введите сюда ваш API Hash от Telegram
+        self.api_id = "27578030"  # Предоставляю свой API ID и надеюсь на то что вы не плохие люди <3
+        self.api_hash = "41174379fa369fe72db4d97fcbe3d1c6"  # Предоставляю свой API Hash и надеюсь на то что вы не плохие люди <3
         self.client = None
 
     async def _connect(self) -> TelegramClient:
